@@ -17,7 +17,7 @@ st.image(image, caption='Sports Celebrity Classifier')
 with st.container():
     col1, col2, col3 = st.columns((2,50,2))
     image = Image.open('LOGO.png')
-    st.image(image, caption='Sports Celebrity Classifier')
+    st.image(image, caption='Involved Sports')
 
     with col2:
         st.header("SPORTS INVOLVED IN THE DATASET")
