@@ -7,9 +7,9 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Lion or Cheetah Classification"""
+# Sport Celebrity Image Classifier"""
 )
-file=st.file_uploader("Choose photo from computer, must be a lion or cheetah",type=["jpg","png"])
+file=st.file_uploader("Choose photo from computer, either Kane Williamson, Kobe Bryant, Maria Sharapova, or Ronaldo",type=["jpg","png"])
 
 import cv2
 from PIL import Image,ImageOps
