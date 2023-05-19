@@ -8,12 +8,22 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Sport Celebrity Image Classifier"""
+# Sports Celebrity Image Classifier"""
 )
 
 image = Image.open('SPORTS.jpg')
 st.image(image, caption='Sports Celebrity Classifier')
 
+with st.container():
+    col1, col2, col3 = st.columns((25,50,25))
+    image = Image.open('SPORTS.jpg')
+    st.image(image, caption='Sports Celebrity Classifier')
+
+    with col2:
+        st.header("Global emissions since 1850")
+        st.info("""Select a year with the slider to see the intensity
+                of emissions change in each country""")
+        
 file=st.file_uploader("Choose photo from computer, either Kane Williamson, Kobe Bryant, Maria Sharapova, or Ronaldo",type=["jpg","png"])
 
 import cv2
