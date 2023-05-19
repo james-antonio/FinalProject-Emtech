@@ -15,7 +15,7 @@ image = Image.open('SPORTS.jpg')
 st.image(image, caption='Sports Celebrity Classifier')
 
 with st.container():
-    col1, col2, col3 = st.columns((40,50,40))
+    col1, col2, col3 = st.columns((10,50,10))
     image = Image.open('SPORTS.jpg')
     st.image(image, caption='Sports Celebrity Classifier')
 
