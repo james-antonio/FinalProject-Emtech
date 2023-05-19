@@ -12,7 +12,7 @@ st.write("""
 )
 
 image = Image.open('SPORTS.jpg')
-st.image(image, caption='Sports Celebrity Classifier')
+st.image(image, caption='Sports Celebrity Classifier - James Brian Antonio')
 
 with st.container():
     col1, col2, col3 = st.columns((2,50,2))
