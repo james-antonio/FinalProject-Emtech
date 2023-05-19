@@ -20,9 +20,8 @@ with st.container():
     st.image(image, caption='Sports Celebrity Classifier')
 
     with col2:
-        st.header("Global emissions since 1850")
-        st.info("""Select a year with the slider to see the intensity
-                of emissions change in each country""")
+        st.header("SPORTS INVOLVED IN THE DATASET")
+        st.info("""Basketball, Football, Tennis, and Cricket""")
         
 file=st.file_uploader("Choose photo from computer, either Kane Williamson, Kobe Bryant, Maria Sharapova, or Ronaldo",type=["jpg","png"])
 
