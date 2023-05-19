@@ -11,7 +11,7 @@ st.write("""
 # Sport Celebrity Image Classifier"""
 )
 
-image = Image.open('SPORTS.png')
+image = Image.open('SPORTS.jpg')
 st.image(image, caption='Sports Celebrity Classifier')
 
 file=st.file_uploader("Choose photo from computer, either Kane Williamson, Kobe Bryant, Maria Sharapova, or Ronaldo",type=["jpg","png"])
