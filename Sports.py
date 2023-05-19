@@ -23,6 +23,14 @@ with st.container():
         st.header("SPORTS INVOLVED IN THE DATASET")
         st.info("""Basketball, Football, Tennis, and Cricket""")
         
+        with col3:
+        st.header("Conclusion")
+        st.info("""In conclusion, this activity served as an opportunity to apply the accumulated knowledge from the Final Period. The primary objectives were to train and save a model, as well as to 
+        deploy the deep learning model in the cloud. By successfully completing these tasks, the intended learning outcomes were achieved. Participants were able to demonstrate their proficiency in 
+        training and saving models, as well as their ability to deploy deep learning models in a cloud environment. 
+        This activity effectively reinforced the essential concepts and skills related to model training, saving, and deployment, 
+        contributing to the overall understanding of deep learning processes.""")
+        
 file=st.file_uploader("Choose photo from computer, either Kane Williamson, Kobe Bryant, Maria Sharapova, or Ronaldo",type=["jpg","png"])
 
 import cv2
