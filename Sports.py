@@ -56,4 +56,4 @@ learning model in a cloud environment. This involved utilizing tools like GitHub
 By completing this activity, I have solidified my understanding of the processes involved in training, saving, and deploying deep learning models. These skills will be 
 valuable in future projects and contribute to my overall proficiency in deep learning.""")
 
-st.info("""Basketball, Football, Tennis, and Cricket""")
+st.info("""GITHUB Repository Link: https://github.com/james-antonio/FinalProject-Emtech""")
