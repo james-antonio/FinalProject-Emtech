@@ -57,3 +57,5 @@ By completing this activity, my understanding of the processes involved in train
 valuable in future projects and contribute to my overall skills in deep learning.""")
 
 st.info("""Github Repository Link: https://github.com/james-antonio/FinalProject-Emtech""")
+st.info("""Google Colab Link: https://colab.research.google.com/drive/16Dtgg-QXawFQgGbJY4Hx0MXHaQQHO4aU?usp=sharing""")
+
