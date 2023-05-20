@@ -53,7 +53,7 @@ ability to fulfill the intended learning outcomes.
 Throughout the activity, I learned how to train a model and save its weights or the entire model itself. Additionally, I gained hands-on experience in deploying a deep 
 learning model in a cloud environment. This involved utilizing tools like GitHub and Streamlit to make the model accessible and interactive.
 
-By completing this activity, I have my understanding of the processes involved in training, saving, and deploying deep learning models had improved. These skills will be 
+By completing this activity, my understanding of the processes involved in training, saving, and deploying deep learning models had improved. These skills will be 
 valuable in future projects and contribute to my overall skills in deep learning.""")
 
 st.info("""Github Repository Link: https://github.com/james-antonio/FinalProject-Emtech""")
