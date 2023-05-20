@@ -46,8 +46,12 @@ else:
     st.success(string)
     
 st.header("Conclusion")
-st.info("""In conclusion, this activity served as an opportunity to apply the accumulated knowledge from the Final Period. The primary objectives were to train and save a model, as well as to 
-        deploy the deep learning model in the cloud. By successfully completing these tasks, the intended learning outcomes were achieved. Participants were able to demonstrate their proficiency in 
-        training and saving models, as well as their ability to deploy deep learning models in a cloud environment. 
-        This activity effectively reinforced the essential concepts and skills related to model training, saving, and deployment, 
-        contributing to the overall understanding of deep learning processes.""")
+st.info("""In conclusion, I have successfully applied all the learnings from the Final Period in this activity. 
+The main objectives were to train and save a model, as well as to deploy the deep learning model in the cloud. By accomplishing these tasks, I have demonstrated my 
+ability to fulfill the intended learning outcomes.
+
+Throughout the activity, I learned how to train a model and save its weights or the entire model itself. Additionally, I gained hands-on experience in deploying a deep 
+learning model in a cloud environment. This involved utilizing tools like GitHub and Streamlit to make the model accessible and interactive.
+
+By completing this activity, I have solidified my understanding of the processes involved in training, saving, and deploying deep learning models. These skills will be 
+valuable in future projects and contribute to my overall proficiency in deep learning.""")
